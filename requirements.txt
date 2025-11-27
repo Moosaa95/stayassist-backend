@@ -1,0 +1,14 @@
+asgiref==3.11.0
+Django==5.2.8
+djangorestframework==3.16.1
+sqlparse==0.5.3
+djangorestframework_simplejwt==5.5.0
+djoser==2.3.1
+drf-spectacular==0.28.0
+drf-standardized-errors==0.14.1
+gunicorn==23.0.0
+django-cors-headers==4.7.0
+django-debug-toolbar==5.1.0
+cloudinary==1.43.0
+pillow==11.3.0
+python-dotenv==1.1.0
