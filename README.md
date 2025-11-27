@@ -45,6 +45,19 @@ DJANGO_SECRET_KEY=your-secret-key
 DEBUG=True
 DJANGO_ALLOWED_HOSTS=127.0.0.1,localhost
 
+# Database Configuration
+# For PostgreSQL (Production)
+DB_ENGINE=django.db.backends.postgresql
+DB_NAME=your-database-name
+DB_USER=your-database-user
+DB_PASSWORD=your-database-password
+DB_HOST=your-database-host
+DB_PORT=5432
+
+# For SQLite (Development - comment out PostgreSQL settings above)
+# DB_ENGINE=django.db.backends.sqlite3
+# DB_NAME=db.sqlite3
+
 # Email Configuration (Mailgun example)
 EMAIL_HOST=smtp.mailgun.org
 EMAIL_HOST_USER=your-mailgun-username
